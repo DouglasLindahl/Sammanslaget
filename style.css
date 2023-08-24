@@ -2,3 +2,50 @@
     margin: 0px;
     padding: 0px;
 }
+a{
+    all: unset;
+}
+a:hover{
+    cursor: pointer;
+}
+body{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+header{
+    position: fixed;
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #EFF7FC;
+    box-sizing: border-box;
+    padding: 16px 48px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about{
+    background-color: #EFF7FC;
+    padding: 32px;
+    border-radius: 10px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.about section{
+    display: flex;
+    gap: 32px;
+}
+.about ul{
+    padding-left: 16px;
+}
+
+.test{
+    background-color: #EFF7FC;
+    padding: 16px;
+    border-radius: 10px;
+    height: 100vh;
+}
