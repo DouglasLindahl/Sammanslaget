@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 a{
     all: unset;
@@ -12,6 +13,7 @@ body{
     padding: 32px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 32px;
 }
 header{
@@ -45,7 +47,44 @@ header{
 
 .test{
     background-color: #EFF7FC;
-    padding: 16px;
     border-radius: 10px;
     height: 100vh;
+    width: 100%;
+}
+
+.imageViewer{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+}
+.imageViewer p{
+    font-size: 32px;
+    font-weight: bold;
+}
+.displayedImage{
+    height: 400px;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+.buttonContainer .imageButton{
+    all: unset;
+    padding: 16px 64px;
+    font-size: 32px;
+    border-radius: 10px;
+    background-color: #EFF7FC;
+    transition: .2s ease;
+    box-shadow: black 5px 5px 5px;
+}
+.buttonContainer .imageButton:hover{
+    cursor: pointer;
+    background-color: #b1d5eb;
 }
