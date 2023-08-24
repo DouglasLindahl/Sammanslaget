@@ -2,13 +2,3 @@
     margin: 0px;
     padding: 0px;
 }
-form{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-section{
-    display: flex;
-    gap: 10px;
-}
