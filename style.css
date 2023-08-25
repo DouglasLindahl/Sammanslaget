@@ -10,23 +10,31 @@ a:hover{
     cursor: pointer;
 }
 body{
-    padding: 32px;
+    padding: 0 32px 32px 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
+    background-image: url("images/backgroundImage.png");
 }
+.heroImage {
+    background-image: url("images/heroImage.png");
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100vw;
+}
+
 header{
-    position: fixed;
-    width: 95%;
+    position: absolute;
+    width: 100%;
     left: 50%;
     transform: translateX(-50%);
     background-color: #EFF7FC;
     box-sizing: border-box;
     padding: 16px 48px;
-    border-radius: 10px;
     display: flex;
     justify-content: space-between;
+    top: 50vh;
 }
 
 .about{
