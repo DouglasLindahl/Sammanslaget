@@ -11,7 +11,7 @@ a:hover{
     cursor: pointer;
 }
 body{
-    padding: 0 64px 64px 64px;
+    padding: 0 128px 128px 128px;
     display: flex;
     flex-direction: column;
     align-items: center;
