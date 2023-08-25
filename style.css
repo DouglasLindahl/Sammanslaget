@@ -96,31 +96,36 @@ header{
     gap: 16px;
 }
 .imageViewer p{
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
 }
 .displayedImage{
-    height: 400px;
+    height: 600px;
 }
 .buttonContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 64px;
+    gap: 32px;
 }
 .buttonContainer .imageButton{
     all: unset;
     padding: 16px 64px;
-    font-size: 32px;
+    font-size: 16px;
     border-radius: 10px;
-    background-color: #EFF7FC;
+    background-color: #A699B8;
+    color: white;
     transition: .2s ease;
-    box-shadow: black 5px 5px 5px;
 }
 .buttonContainer .imageButton:hover{
     cursor: pointer;
-    background-color: #b1d5eb;
+    background-color: #50467E;
 }
+.buttonContainer .imageButton:active {
+    background-color: #A699B8;
+    box-shadow: inset 8px 8px 12px rgba(0, 0, 0, 0.7); 
+}
+
 
 .testOneVideo{
     width: 100%;
