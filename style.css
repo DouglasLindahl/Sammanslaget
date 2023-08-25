@@ -33,6 +33,15 @@ body{
     width: 100%;
     margin-top: 50px;
 }
+.concept {
+    background-image: url("images/info.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 468px;
+    width: 100%;
+    margin-top: 50px;
+}
 
 header{
     position: absolute;
