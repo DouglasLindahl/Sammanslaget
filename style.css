@@ -38,11 +38,12 @@ header{
     width: 100%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #EFF7FC;
+    background-color: white;
     box-sizing: border-box;
     padding: 16px 48px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 64px;
     top: 50vh;
 }
 
