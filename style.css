@@ -21,7 +21,7 @@ body{
 .heroImage {
     background-image: url("images/heroImage.png");
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 55vh;
     width: 100vw;
 }
 .intro {
@@ -38,7 +38,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 852px;
+    height: 700px;
     width: 100%;
 }
 .branschen{
@@ -46,7 +46,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 400px;
+    height: 390px;
     width: 100%;
 }
 
