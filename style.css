@@ -15,8 +15,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
     background-image: url("images/backgroundImage.png");
+    gap: 32px;
 }
 .heroImage {
     background-image: url("images/heroImage.png");
@@ -30,7 +30,7 @@ body{
     background-position: center;
     background-size: contain;
     height: 600px;
-    margin-top: 50px;
+    margin-top: 32px;
     width: 100%;
 }
 .concept {
@@ -38,7 +38,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 700px;
+    height: 675px;
     width: 100%;
 }
 .branschen{
@@ -74,7 +74,6 @@ header a:hover{
     width: 100%;
     padding: 32px 0;
     border-radius: 10px;
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -197,3 +196,4 @@ header a:hover{
     justify-content: center;
     align-items: center;
 }
+
