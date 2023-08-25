@@ -37,3 +37,24 @@ function handleScroll() {
 window.addEventListener('scroll', handleScroll);
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const headerLinks = document.querySelectorAll("header a");
+
+    headerLinks.forEach(link => {
+        link.addEventListener("click", function(event) {
+            event.preventDefault();
+            
+            const targetId = link.getAttribute("href").substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+                // Add an offset value (e.g., 20 pixels) to scroll slightly farther down
+                const offset = 50;
+                window.scrollTo({
+                    top: targetElement.offsetTop - offset,
+                    behavior: "smooth"
+                });
+            }
+        });
+    });
+});

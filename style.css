@@ -34,7 +34,6 @@ body{
     margin-top: 50px;
 }
 
-
 header{
     position: absolute;
     width: 100%;
@@ -47,6 +46,10 @@ header{
     justify-content: center;
     gap: 64px;
     top: 50vh;
+    font-weight: 600;
+}
+header a:hover{
+    color: #745E92;
 }
 
 .about{
