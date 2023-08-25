@@ -85,13 +85,13 @@ header a:hover{
     gap: 10px;
 }
 .about .imagesContainer div img {
-    width: 150px;
-    height: 150px; /* Set a fixed height */
+    width: 200px;
+    height: 200px; /* Set a fixed height */
     object-fit: cover; /* Maintain aspect ratio and cover the container */
     border-radius: 50%;
 }
 .about .imagesContainer div p{
-    width: 100px;
+    width: 150px;
     text-align: center;
 }
 
